@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Pixytech">
+  <title>Pixytech</title>
+  <defs>
+    <linearGradient id="pxt-icon-wing" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#E01B24"/>
+      <stop offset="26%"  stop-color="#F26522"/>
+      <stop offset="52%"  stop-color="#FFC709"/>
+      <stop offset="78%"  stop-color="#8CC63F"/>
+      <stop offset="100%" stop-color="#2FA84F"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="#2B2340"/>
+  <g transform="translate(34.4,28) scale(0.64)">
+    <path d="M0 0 H30 L80 100 H50 Z M50 0 H80 L30 100 H0 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M0 0 H30 L80 100 H50 Z M50 0 H80 L30 100 H0 Z" fill="url(#pxt-icon-wing)"/>
+  </g>
+</svg>

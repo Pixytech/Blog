@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 646 100" width="646" height="100" role="img" aria-label="PIXYTECH">
+  <title>PIXYTECH</title>
+  <defs>
+    <linearGradient id="pxt-wing" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#E01B24"/>
+      <stop offset="26%"  stop-color="#F26522"/>
+      <stop offset="52%"  stop-color="#FFC709"/>
+      <stop offset="78%"  stop-color="#8CC63F"/>
+      <stop offset="100%" stop-color="#2FA84F"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="#FFFFFF">
+    <!-- P -->
+    <path fill-rule="evenodd" d="M0 0 H76 V58 H24 V100 H0 Z M24 20 H56 V38 H24 Z" transform="translate(0,0)"/>
+    <!-- I -->
+    <path d="M0 0 H24 V100 H0 Z" transform="translate(90,0)"/>
+  </g>
+
+  <!-- X -->
+  <g transform="translate(128,0)">
+    <path d="M0 0 H30 L80 100 H50 Z M50 0 H80 L30 100 H0 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M0 0 H30 L80 100 H50 Z M50 0 H80 L30 100 H0 Z" fill="url(#pxt-wing)"/>
+  </g>
+
+  <g fill="#FFFFFF">
+    <!-- Y -->
+    <path d="M0 0 H28 L38 26 L48 0 H76 L52 46 V100 H24 V46 Z" transform="translate(222,0)"/>
+    <!-- T -->
+    <path d="M0 0 H80 V24 H52 V100 H28 V24 H0 Z" transform="translate(312,0)"/>
+    <!-- E -->
+    <path d="M0 0 H68 V22 H24 V39 H60 V61 H24 V78 H68 V100 H0 Z" transform="translate(406,0)"/>
+    <!-- C -->
+    <path d="M68 0 H0 V100 H68 V78 H24 V22 H68 Z" transform="translate(488,0)"/>
+    <!-- H -->
+    <path d="M0 0 H24 V39 H52 V0 H76 V100 H52 V61 H24 V100 H0 Z" transform="translate(570,0)"/>
+  </g>
+</svg>
